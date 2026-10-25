@@ -1,0 +1,26 @@
+name: Перевірка метаданих документів знань
+
+on:
+  push:
+    paths: ["kb/**", "tools/**", "schemas/**", ".github/workflows/lint.yml"]
+  pull_request:
+    paths: ["kb/**", "tools/**", "schemas/**"]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Встановити залежності
+        run: pip install -r requirements.txt
+
+      - name: Лінтер метаданих kb/
+        run: python tools/lint_meta.py kb/ --max-age-days 365
+
+      - name: Валідація тверджень за схемою
+        run: python tools/validate_claims.py llm_log/session_01.jsonl

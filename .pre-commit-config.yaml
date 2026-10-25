@@ -1,0 +1,18 @@
+# Локальний аналог CI: ті самі перевірки перед кожним комітом.
+# Встановлення: pip install pre-commit && pre-commit install
+repos:
+  - repo: local
+    hooks:
+      - id: lint-meta
+        name: Лінтер метаданих документів знань
+        entry: python tools/lint_meta.py kb/
+        language: system
+        pass_filenames: false
+        files: ^kb/.*\.md$
+
+      - id: validate-claims
+        name: Валідація тверджень за схемою
+        entry: python tools/validate_claims.py llm_log/session_01.jsonl
+        language: system
+        pass_filenames: false
+        files: ^(llm_log|schemas)/

@@ -1,10 +1,10 @@
-name: Перевірка метаданих документів знань
+name: Перевірка бази знань і таксономії
 
 on:
   push:
-    paths: ["kb/**", "tools/**", "schemas/**", ".github/workflows/lint.yml"]
+    paths: ["kb/**", "tools/**", "schemas/**", "models/**", "engine/**", "tests/**", ".github/workflows/lint.yml"]
   pull_request:
-    paths: ["kb/**", "tools/**", "schemas/**"]
+    paths: ["kb/**", "tools/**", "schemas/**", "models/**", "engine/**", "tests/**"]
 
 jobs:
   lint:
@@ -24,3 +24,9 @@ jobs:
 
       - name: Валідація тверджень за схемою
         run: python tools/validate_claims.py llm_log/session_01.jsonl
+
+      - name: Тести правил і таксономії
+        run: pytest tests/ -v
+
+      - name: Метрики таксономії
+        run: python tools/taxonomy_metrics.py

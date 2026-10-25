@@ -1,0 +1,1428 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dkh: <https://example.org/dkh/taxonomy/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+dkh:e03 a skos:Concept ;
+    skos:altLabel "нерухомий обʼєкт культурної спадщини"@uk,
+        "памʼятка архітектури"@uk ;
+    skos:broader dkh:e02 ;
+    skos:definition "Будівля, споруда, комплекс чи територія, узята під охорону держави і нерозривно пов'язана з місцем свого розташування."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "нерухома памʼятка"@uk .
+
+dkh:e04 a skos:Concept ;
+    skos:broader dkh:e02 ;
+    skos:definition "Нерухомий об'єкт спадщини, цінність якого становить його архітектурне рішення та будівельна структура."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "памʼятка архітектури"@uk .
+
+dkh:e05 a skos:Concept ;
+    skos:broader dkh:e02 ;
+    skos:definition "Територія навколо нерухомої пам'ятки, у межах якої господарська діяльність обмежена задля збереження пам'ятки."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "охоронна зона"@uk .
+
+dkh:e06 a skos:Concept ;
+    skos:broader dkh:e02 ;
+    skos:definition "Частина населеного пункту, що зберегла історичне планування та забудову і підлягає особливому режиму використання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "історичний ареал"@uk .
+
+dkh:e07 a skos:Concept ;
+    skos:broader dkh:e02 ;
+    skos:definition "Зміна сприйняття нерухомої пам'ятки, спричинена новою забудовою або об'єктами в полі зору спостерігача."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "візуальний вплив"@uk .
+
+dkh:e08 a skos:Concept ;
+    skos:broader dkh:e02 ;
+    skos:definition "Невідкладні роботи, що припиняють руйнування пам'ятки і не передбачають відновлення її вигляду."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "протиаварійні роботи"@uk .
+
+dkh:e10 a skos:Concept ;
+    skos:altLabel "експонат"@uk,
+        "одиниця зберігання"@uk ;
+    skos:broader dkh:e09 ;
+    skos:definition "Рухома річ рукотворного або природного походження, прийнята до музейного зібрання на постійне зберігання і наділена самостійною науковою та культурною цінністю."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "музейний предмет"@uk .
+
+dkh:e100 a skos:Concept ;
+    skos:broader dkh:e95 ;
+    skos:definition "Працівник, що здійснює дослідження предметів зібрання та готує наукові описи."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "науковий співробітник"@uk .
+
+dkh:e101 a skos:Concept ;
+    skos:broader dkh:e95 ;
+    skos:definition "Фахівець, що формалізує знання предметної області у придатну для машини форму."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "інженер знань"@uk .
+
+dkh:e102 a skos:Concept ;
+    skos:broader dkh:e95 ;
+    skos:definition "Фахівець, відповідальний за роботу інженерних систем будівлі та підтримання режимів."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "інженер з експлуатації"@uk .
+
+dkh:e104 a skos:Concept ;
+    skos:altLabel "закупівельна комісія"@uk,
+        "фЗК"@uk ;
+    skos:broader dkh:e103 ;
+    skos:definition "Колегіальний орган установи, що ухвалює рішення про прийняття предметів до фондів та їх розподіл між групами зберігання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "фондово-закупівельна комісія"@uk .
+
+dkh:e105 a skos:Concept ;
+    skos:altLabel "рада з реставрації"@uk ;
+    skos:broader dkh:e103 ;
+    skos:definition "Колегіальний орган, що розглядає й затверджує програми втручання у твори та оцінює результат виконаних робіт."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "реставраційна рада"@uk .
+
+dkh:e107 a skos:Concept ;
+    skos:altLabel "памʼяткоохоронний орган"@uk ;
+    skos:broader dkh:e106 ;
+    skos:definition "Державна або місцева структура, що здійснює контроль за обліком, використанням і охороною нерухомих об'єктів."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "орган охорони культурної спадщини"@uk .
+
+dkh:e108 a skos:Concept ;
+    skos:broader dkh:e106 ;
+    skos:definition "Особа, що оглядає експозицію установи."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "відвідувач"@uk .
+
+dkh:e109 a skos:Concept ;
+    skos:broader dkh:e106 ;
+    skos:definition "Спільнота, пов'язана з пам'яткою місцем проживання та історичною традицією."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "місцева громада"@uk .
+
+dkh:e11 a skos:Concept ;
+    skos:altLabel "деревʼяна ікона"@uk,
+        "іконопис на дереві"@uk ;
+    skos:broader dkh:e09 ;
+    skos:definition "Твір станкового сакрального живопису, виконаний на деревʼяному щиті з крейдяно-клейовим ґрунтом; становить профільну частину зібрання музею."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "ікона на деревʼяній основі"@uk .
+
+dkh:e110 a skos:Concept ;
+    skos:broader dkh:e106 ;
+    skos:definition "Юридична особа, на балансі якої перебуває нерухома пам'ятка."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "балансоутримувач"@uk .
+
+dkh:e111 a skos:Concept ;
+    skos:broader dkh:e106 ;
+    skos:definition "Фахівець, що визначає вид біологічного ураження та призначає спосіб знезараження."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "фахівець з біопошкоджень"@uk .
+
+dkh:e114 a skos:Concept ;
+    skos:altLabel "картка наукового опису"@uk,
+        "облікова карта"@uk ;
+    skos:broader dkh:f174 ;
+    skos:definition "Основний описовий документ на одну одиницю зберігання, що фіксує назву, розміри, матеріал, техніку, атрибуцію та стан."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "облікова картка музейного предмета"@uk .
+
+dkh:e115 a skos:Concept ;
+    skos:altLabel "кН"@uk,
+        "книга обліку надходжень"@uk ;
+    skos:broader dkh:f174 ;
+    skos:definition "Первинний юридичний документ, у якому за хронологією реєструють кожне прийняте до фондів надходження з присвоєнням номера."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "книга надходжень"@uk .
+
+dkh:e116 a skos:Concept ;
+    skos:altLabel "книга наукової інвентаризації"@uk,
+        "інвентар"@uk ;
+    skos:broader dkh:f174 ;
+    skos:definition "Документ другого ступеня обліку, що містить розгорнений науковий опис предметів у межах окремої фондової групи."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "інвентарна книга"@uk .
+
+dkh:e117 a skos:Concept ;
+    skos:altLabel "акт передачі"@uk,
+        "акт прийому-передачі"@uk ;
+    skos:broader dkh:f175 ;
+    skos:definition "Двосторонній документ, яким засвідчують факт і умови переходу предметів від однієї відповідальної особи або установи до іншої."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "акт приймання-передавання"@uk .
+
+dkh:e118 a skos:Concept ;
+    skos:broader dkh:f176 ;
+    skos:definition "Документ, що фіксує стан збереженості предмета на певну дату."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "акт технічного стану"@uk .
+
+dkh:e119 a skos:Concept ;
+    skos:broader dkh:f175 ;
+    skos:definition "Документ, яким оформлюють вилучення предмета з облікової групи або зі зібрання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "акт вилучення"@uk .
+
+dkh:e12 a skos:Concept ;
+    skos:broader dkh:e09 ;
+    skos:definition "Живопис, виконаний на жорсткій дерев'яній основі."@uk ;
+    skos:editorialNote "Зв'язок із AAT 300178675: panel painting (image-making) — та сама техніка"@uk ;
+    skos:exactMatch aat:300178675 ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "панельний живопис"@uk .
+
+dkh:e120 a skos:Concept ;
+    skos:altLabel "топографічна книга"@uk,
+        "топоопис"@uk ;
+    skos:broader dkh:f174 ;
+    skos:definition "Перелік, що закріплює місце фізичного розміщення кожної одиниці зберігання: приміщення, шафу, полицю, порядковий номер місця."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "топографічний опис"@uk .
+
+dkh:e121 a skos:Concept ;
+    skos:altLabel "облікова картка памʼятки"@uk ;
+    skos:broader dkh:f174 ;
+    skos:definition "Зведений обліковий документ на нерухомий об'єкт, що містить його опис, межі, визначений предмет охорони та фотофіксацію."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "паспорт нерухомої памʼятки"@uk .
+
+dkh:e122 a skos:Concept ;
+    skos:altLabel "паспорт реставрації"@uk ;
+    skos:broader dkh:f176 ;
+    skos:definition "Документ, що супроводжує твір під час втручання і фіксує стан до робіт, обрану методику, застосовані матеріали та результат."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "реставраційний паспорт"@uk .
+
+dkh:e123 a skos:Concept ;
+    skos:altLabel "атрибуційний висновок"@uk,
+        "висновок експертизи"@uk ;
+    skos:broader dkh:f176 ;
+    skos:definition "Письмовий фаховий документ з обґрунтованою оцінкою походження, авторства, датування або цінності предмета."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "експертний висновок"@uk .
+
+dkh:e124 a skos:Concept ;
+    skos:broader dkh:f175 ;
+    skos:definition "Договір, що покладає на користувача пам'ятки обов'язки з її збереження."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "охоронний договір"@uk .
+
+dkh:e125 a skos:Concept ;
+    skos:broader dkh:f176 ;
+    skos:definition "Комплект документів, що обґрунтовує та описує заплановані роботи на пам'ятці."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "науково-проєктна документація"@uk .
+
+dkh:e126 a skos:Concept ;
+    skos:broader dkh:f177 ;
+    skos:definition "Документ, що визначає порядок і черговість вивезення предметів у разі загрози."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "план евакуації"@uk .
+
+dkh:e128 a skos:Concept ;
+    skos:altLabel "онтологія"@uk,
+        "формальна модель понять"@uk ;
+    skos:broader dkh:e127 ;
+    skos:definition "Формальний опис класів, властивостей і зв'язків між поняттями галузі, придатний для машинного опрацювання й логічного виведення."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "онтологія предметної області"@uk .
+
+dkh:e129 a skos:Concept ;
+    skos:altLabel "тезаурус дескрипторів"@uk ;
+    skos:broader dkh:e127 ;
+    skos:definition "Упорядкований набір термінів з ієрархічними та асоціативними зв'язками між ними, що використовується для індексування й пошуку."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "тезаурус"@uk .
+
+dkh:e13 a skos:Concept ;
+    skos:broader dkh:e09 ;
+    skos:closeMatch aat:300054216 ;
+    skos:definition "Живопис, виконаний на переносній основі й призначений для сприйняття незалежно від місця розташування."@uk ;
+    skos:editorialNote "Зв'язок із AAT 300054216: painting (image-making) — ширше за станковий"@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "станковий живопис"@uk .
+
+dkh:e130 a skos:Concept ;
+    skos:altLabel "авторитетний список"@uk,
+        "словник допустимих значень"@uk ;
+    skos:broader dkh:e127 ;
+    skos:definition "Затверджений перелік допустимих значень для певного поля опису, що унеможливлює довільні формулювання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "контрольований словник"@uk .
+
+dkh:e131 a skos:Concept ;
+    skos:altLabel "метаопис"@uk,
+        "описові дані"@uk ;
+    skos:broader dkh:e127 ;
+    skos:definition "Структуровані відомості про предмет або його цифрову копію: назва, автор, датування, розміри, умови доступу."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "метадані"@uk .
+
+dkh:e132 a skos:Concept ;
+    skos:altLabel "модель опису"@uk,
+        "профіль метаданих"@uk ;
+    skos:broader dkh:e127 ;
+    skos:definition "Погоджений набір полів опису з правилами заповнення та вимогами обов'язковості, спільний для всього зібрання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "схема метаданих"@uk .
+
+dkh:e133 a skos:Concept ;
+    skos:altLabel "нормалізований термін"@uk,
+        "предметна рубрика"@uk ;
+    skos:broader dkh:e127 ;
+    skos:definition "Нормалізований термін, обраний з-поміж синонімів як єдиний допустимий для позначення поняття під час індексування."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "дескриптор"@uk .
+
+dkh:e134 a skos:Concept ;
+    skos:altLabel "знаннєвий граф"@uk ;
+    skos:broader dkh:e127 ;
+    skos:definition "Подання зібраних відомостей як мережі сутностей і типізованих зв'язків між ними, що дає змогу робити запити й висновки."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "граф знань"@uk .
+
+dkh:e135 a skos:Concept ;
+    skos:altLabel "класифікаційна схема"@uk,
+        "рубрикатор"@uk ;
+    skos:broader dkh:e127 ;
+    skos:definition "Ієрархічний перелік категорій, за яким предмети розподіляють за видом, матеріалом або технікою виконання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "класифікатор"@uk .
+
+dkh:e136 a skos:Concept ;
+    skos:altLabel "авторитетний файл"@uk,
+        "нормативний запис"@uk ;
+    skos:broader dkh:e127 ;
+    skos:definition "Еталонний опис імені, місця чи події з переліком варіантів написання, до якого прив'язують згадки в каталозі."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "авторитетний запис"@uk .
+
+dkh:e138 a skos:Concept ;
+    skos:broader dkh:e137 ;
+    skos:definition "Запис знання у формі «якщо умови, то дії»."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "продукційне правило"@uk .
+
+dkh:e139 a skos:Concept ;
+    skos:broader dkh:e137 ;
+    skos:definition "Іменована властивість фрейму разом із обмеженнями на її значення."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "слот"@uk .
+
+dkh:e14 a skos:Concept ;
+    skos:broader dkh:e09 ;
+    skos:definition "Відбиток на папері з друкарської форми, виготовленої різьбленням або травленням."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "гравюра"@uk .
+
+dkh:e140 a skos:Concept ;
+    skos:broader dkh:e137 ;
+    skos:definition "Структура подання знань про типовий об'єкт у вигляді набору слотів."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "фрейм"@uk .
+
+dkh:e141 a skos:Concept ;
+    skos:broader dkh:e137 ;
+    skos:definition "Правило, що керує застосуванням інших правил, а не предметними фактами."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "метаправило"@uk .
+
+dkh:e142 a skos:Concept ;
+    skos:broader dkh:e137 ;
+    skos:definition "Спосіб виведення, за якого від наявних фактів переходять до висновків, застосовуючи правила."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "пряме ланцюжкування"@uk .
+
+dkh:e143 a skos:Concept ;
+    skos:broader dkh:e137 ;
+    skos:definition "Порядок вибору правила, коли одночасно виконуються умови кількох правил."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "стратегія розвʼязання конфліктів"@uk .
+
+dkh:e144 a skos:Concept ;
+    skos:broader dkh:e137 ;
+    skos:definition "Питання, на яке модель знань має давати відповідь; слугує вимогою до її повноти."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "компетентнісне питання"@uk .
+
+dkh:e145 a skos:Concept ;
+    skos:broader dkh:e137 ;
+    skos:definition "Набір тестових випадків із заздалегідь відомим правильним результатом."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "золотий набір"@uk .
+
+dkh:e147 a skos:Concept ;
+    skos:altLabel "обліковий номер"@uk,
+        "шифр зберігання"@uk ;
+    skos:broader dkh:e146 ;
+    skos:definition "Унікальне облікове позначення одиниці зберігання, за яким її ідентифікують у документах і базі даних."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "інвентарний номер"@uk .
+
+dkh:e148 a skos:Concept ;
+    skos:altLabel "персистентний ідентифікатор"@uk,
+        "стійкий ідентифікатор"@uk ;
+    skos:broader dkh:e146 ;
+    skos:definition "Незмінне машиночитне позначення ресурсу, що залишається дійсним і після зміни місця його розміщення в мережі."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "постійний ідентифікатор"@uk .
+
+dkh:e149 a skos:Concept ;
+    skos:broader dkh:e146 ;
+    skos:definition "Позначення, що визначає коло осіб, яким відкрито відомості про ресурс."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "гриф доступу"@uk .
+
+dkh:e15 a skos:Concept ;
+    skos:broader dkh:e09 ;
+    skos:definition "Живопис водорозчинними фарбами на папері, чутливий до вологи та світла."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "акварель"@uk .
+
+dkh:e150 a skos:Concept ;
+    skos:broader dkh:f170 ;
+    skos:definition "Позначення способу та глибини перевірки твердження."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "рівень верифікації"@uk .
+
+dkh:e16 a skos:Concept ;
+    skos:broader dkh:e09 ;
+    skos:definition "Текст або зображення, виконані від руки на папері, пергамені чи іншій основі."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "рукопис"@uk .
+
+dkh:e17 a skos:Concept ;
+    skos:broader dkh:e09 ;
+    skos:definition "Друковане видання раннього періоду книгодрукування, що обліковується як пам'ятка."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "стародрук"@uk .
+
+dkh:e18 a skos:Concept ;
+    skos:broader dkh:e09 ;
+    skos:definition "Предмет, виявлений під час археологічних досліджень і вилучений із культурного шару."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "археологічна знахідка"@uk .
+
+dkh:e19 a skos:Concept ;
+    skos:altLabel "збірка"@uk,
+        "фондова колекція"@uk ;
+    skos:broader dkh:e09 ;
+    skos:definition "Сукупність предметів, об'єднаних спільною ознакою — автором, матеріалом, темою чи походженням — і описаних як одне ціле."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "музейна колекція"@uk .
+
+dkh:e20 a skos:Concept ;
+    skos:altLabel "фонди"@uk,
+        "фондове зібрання"@uk ;
+    skos:broader dkh:e09 ;
+    skos:definition "Усе зібрання предметів, що належать установі, розподілене між основним і науково-допоміжним зберіганням."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "музейний фонд"@uk .
+
+dkh:e21 a skos:Concept ;
+    skos:broader dkh:e09 ;
+    skos:definition "Кілька предметів, що функціонально пов'язані й обліковуються як одна одиниця зберігання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "комплект предметів"@uk .
+
+dkh:e22 a skos:Concept ;
+    skos:broader dkh:e09 ;
+    skos:definition "Відокремлений складник предмета, що обліковується разом із ним."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "частина предмета"@uk .
+
+dkh:e24 a skos:Concept ;
+    skos:altLabel "дошка"@uk,
+        "основа твору"@uk,
+        "щит"@uk ;
+    skos:broader dkh:e23 ;
+    skos:definition "Конструктивний носій живопису у вигляді щита з однієї або кількох склеєних дощок, часто скріпленого шпугами."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "деревʼяна основа"@uk .
+
+dkh:e25 a skos:Concept ;
+    skos:altLabel "крейдяний ґрунт"@uk,
+        "ґрунт"@uk ;
+    skos:broader dkh:e23 ;
+    skos:definition "Багатошарове крейдяно-клейове покриття, нанесене на деревину для вирівнювання поверхні під живопис і золочення."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "левкас"@uk .
+
+dkh:e26 a skos:Concept ;
+    skos:altLabel "живописний шар"@uk,
+        "красковий шар"@uk ;
+    skos:broader dkh:e23 ;
+    skos:definition "Утворене пігментами з в'яжучим зображення, що лежить між ґрунтом і захисним покриттям твору."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "фарбовий шар"@uk .
+
+dkh:e27 a skos:Concept ;
+    skos:broader dkh:e23 ;
+    skos:definition "Тканинна основа живописного твору, натягнута на підрамник."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "полотно"@uk .
+
+dkh:e28 a skos:Concept ;
+    skos:broader dkh:e23 ;
+    skos:definition "Обрамлення твору, що виконує захисну й експозиційну функцію."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "рама"@uk .
+
+dkh:e29 a skos:Concept ;
+    skos:broader dkh:e23 ;
+    skos:definition "Дерев'яна решітка з тильного боку панелі, що стримує її викривлення."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "паркетаж"@uk .
+
+dkh:e30 a skos:Concept ;
+    skos:broader dkh:e23 ;
+    skos:definition "Планка, врізана в тильний бік дерев'яної основи для запобігання її короблення."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "шпуга"@uk .
+
+dkh:e31 a skos:Concept ;
+    skos:broader dkh:e23 ;
+    skos:definition "Шар металевого золота на поверхні твору, нанесений на спеціальний ґрунт."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "позолота"@uk .
+
+dkh:e32 a skos:Concept ;
+    skos:broader dkh:e23 ;
+    skos:closeMatch aat:300389785 ;
+    skos:definition "Техніка живопису фарбами, у яких пігмент зв'язаний емульсією на водній основі."@uk ;
+    skos:editorialNote "Зв'язок із AAT 300389785: tempera paintings — у AAT це твори, у нас техніка й матеріал"@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "темпера"@uk .
+
+dkh:e33 a skos:Concept ;
+    skos:broader dkh:e23 ;
+    skos:definition "Техніка живопису фарбами, у яких пігмент зв'язаний висихальною олією."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "олійний живопис"@uk .
+
+dkh:e35 a skos:Concept ;
+    skos:altLabel "цифрова репродукція"@uk,
+        "цифровий образ"@uk ;
+    skos:broader dkh:e127 ;
+    skos:definition "Файл або набір файлів, що відтворює вигляд і зміст оригіналу з якістю, достатньою для наукового використання та публікації."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "цифрова копія"@uk .
+
+dkh:e36 a skos:Concept ;
+    skos:altLabel "фотодокументування"@uk ;
+    skos:broader dkh:e68 ;
+    skos:definition "Зйомка предмета або пам'ятки за встановленою схемою для документування стану на певну дату."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "фотофіксація"@uk .
+
+dkh:e37 a skos:Concept ;
+    skos:altLabel "діджиталізація"@uk,
+        "цифровізація"@uk ;
+    skos:broader dkh:e68 ;
+    skos:definition "Переведення зображення та описових відомостей про предмет у машиночитну форму, придатну для зберігання, пошуку й оприлюднення."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "оцифрування"@uk .
+
+dkh:e40 a skos:Concept ;
+    skos:altLabel "клімат-режим"@uk,
+        "тВР"@uk ;
+    skos:broader dkh:e39 ;
+    skos:definition "Сукупність нормованих значень температури та відносної вологості повітря, які підтримують у сховищі й експозиційних залах."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "температурно-вологісний режим"@uk .
+
+dkh:e41 a skos:Concept ;
+    skos:altLabel "RH"@uk,
+        "вВ"@uk ;
+    skos:broader dkh:e39 ;
+    skos:closeMatch aat:300055370 ;
+    skos:definition "Відношення фактичного вмісту водяної пари до максимально можливого за тієї самої температури, виражене у відсотках."@uk ;
+    skos:editorialNote "Зв'язок із AAT 300055370: humidity — у AAT ширше поняття вологості"@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "відносна вологість повітря"@uk .
+
+dkh:e42 a skos:Concept ;
+    skos:broader dkh:e39 ;
+    skos:definition "Стан середовища з підвищеною відносною вологістю, за якого зростає ризик біологічного ураження."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "вогкість"@uk .
+
+dkh:e43 a skos:Concept ;
+    skos:broader dkh:e39 ;
+    skos:definition "Стан середовища із заниженою відносною вологістю, за якого матеріали втрачають вологу й деформуються."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "пересушення"@uk .
+
+dkh:e44 a skos:Concept ;
+    skos:broader dkh:e39 ;
+    skos:definition "Зміна показників середовища в межах доби."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "добові коливання"@uk .
+
+dkh:e45 a skos:Concept ;
+    skos:broader dkh:e39 ;
+    skos:definition "Повільна зміна показників середовища впродовж року."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "сезонний дрейф"@uk .
+
+dkh:e46 a skos:Concept ;
+    skos:broader dkh:e39 ;
+    skos:definition "Вологість матеріалу, за якої він не обмінюється вологою з навколишнім повітрям."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "рівноважна вологість"@uk .
+
+dkh:e47 a skos:Concept ;
+    skos:broader dkh:e39 ;
+    skos:definition "Випадання вологи на поверхні, температура якої нижча за точку роси повітря."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "конденсація"@uk .
+
+dkh:e48 a skos:Concept ;
+    skos:broader dkh:e39 ;
+    skos:definition "Відсутність руху повітря в об'ємі зберігання, що сприяє локальному накопиченню вологи."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "застій повітря"@uk .
+
+dkh:e50 a skos:Concept ;
+    skos:altLabel "освітлювальний режим"@uk,
+        "режим освітлення"@uk ;
+    skos:broader dkh:e49 ;
+    skos:definition "Нормовані рівень, спектральний склад і тривалість освітлення, допустимі для предмета без прискорення вицвітання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "світловий режим"@uk .
+
+dkh:e51 a skos:Concept ;
+    skos:broader dkh:e49 ;
+    skos:definition "Сумарна кількість світлової енергії, отримана предметом за весь час експонування."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "кумулятивна доза"@uk .
+
+dkh:e52 a skos:Concept ;
+    skos:broader dkh:e49 ;
+    skos:definition "Одиниця вимірювання світлової дози: освітленість, помножена на тривалість її дії."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "люкс-година"@uk .
+
+dkh:e53 a skos:Concept ;
+    skos:broader dkh:e49 ;
+    skos:definition "Короткохвильове випромінювання, що руйнує органічні матеріали швидше за видиме світло."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "ультрафіолет"@uk .
+
+dkh:e54 a skos:Concept ;
+    skos:broader dkh:e49 ;
+    skos:definition "Незворотна втрата насиченості кольору під дією світла."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "вицвітання"@uk .
+
+dkh:e56 a skos:Concept ;
+    skos:altLabel "біопошкодження"@uk,
+        "біоураження"@uk ;
+    skos:broader dkh:e55 ;
+    skos:definition "Пошкодження матеріалу життєдіяльністю грибів, комах-шкідників або гризунів."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "біологічне ураження"@uk .
+
+dkh:e57 a skos:Concept ;
+    skos:broader dkh:e55 ;
+    skos:definition "Пошкодження матеріалу, спричинене життєдіяльністю організмів."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "біоураження"@uk .
+
+dkh:e58 a skos:Concept ;
+    skos:broader dkh:e55 ;
+    skos:definition "Гриб, здатний розвиватися за зниженої вологості, тому небезпечний і поза вогкими умовами."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "ксерофільний гриб"@uk .
+
+dkh:e59 a skos:Concept ;
+    skos:broader dkh:e55 ;
+    skos:definition "Показник доступності вологи в матеріалі для розвитку мікроорганізмів."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "активність води"@uk .
+
+dkh:e61 a skos:Concept ;
+    skos:broader dkh:e60 ;
+    skos:definition "Сукупний вплив умов показу на предмет за час перебування в експозиції."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "експозиційне навантаження"@uk .
+
+dkh:e62 a skos:Concept ;
+    skos:broader dkh:e60 ;
+    skos:definition "Механічні коливання, що передаються предметові від будівлі, транспорту або відвідувачів."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "вібраційний вплив"@uk .
+
+dkh:e63 a skos:Concept ;
+    skos:broader dkh:e60 ;
+    skos:definition "Зміна форми основи твору під дією вологи, температури або механічного навантаження."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "деформація основи"@uk .
+
+dkh:e64 a skos:Concept ;
+    skos:altLabel "сітка тріщин"@uk,
+        "тріщинуватість"@uk ;
+    skos:broader dkh:e60 ;
+    skos:definition "Сітка тріщин у ґрунті та живописі, що виникає від старіння матеріалів і деформацій основи."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "кракелюр"@uk .
+
+dkh:e65 a skos:Concept ;
+    skos:altLabel "відставання"@uk,
+        "відшарування"@uk ;
+    skos:broader dkh:e60 ;
+    skos:definition "Локальне відставання живопису разом із ґрунтом від основи з утворенням порожнини під ним."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "здуття фарбового шару"@uk .
+
+dkh:e66 a skos:Concept ;
+    skos:broader dkh:e60 ;
+    skos:definition "Відокремлення й утрата часток фарбового шару або ґрунту."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "осипання"@uk .
+
+dkh:e69 a skos:Concept ;
+    skos:altLabel "музейний облік"@uk,
+        "облік музейних предметів"@uk ;
+    skos:broader dkh:e68 ;
+    skos:definition "Послідовність дій з реєстрації, опису та закріплення відповідальності за предметами, що забезпечує їх юридичний і науковий статус."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "фондовий облік"@uk .
+
+dkh:e70 a skos:Concept ;
+    skos:altLabel "звірка наявності"@uk,
+        "наукова інвентаризація"@uk ;
+    skos:broader dkh:e68 ;
+    skos:definition "Робота з наукового опрацювання предметів фонду та перевірки їх фактичної наявності з оформленням результату в облікових документах."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "інвентаризація"@uk .
+
+dkh:e71 a skos:Concept ;
+    skos:broader dkh:e68 ;
+    skos:definition "Складання паспорта об'єкта з повним описом його стану та характеристик."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "паспортизація"@uk .
+
+dkh:e72 a skos:Concept ;
+    skos:broader dkh:e68 ;
+    skos:definition "Перевірка фактичної наявності предметів за обліковими документами."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "звірка наявності"@uk .
+
+dkh:e73 a skos:Concept ;
+    skos:broader dkh:e68 ;
+    skos:definition "Зміна облікових позначень предметів із фіксацією відповідності старих і нових номерів."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "перенумерація"@uk .
+
+dkh:e74 a skos:Concept ;
+    skos:altLabel "видача з фондів"@uk,
+        "тимчасова передача"@uk ;
+    skos:broader dkh:e68 ;
+    skos:definition "Оформлене рішенням і документами переміщення одиниці зберігання за межі сховища для виставки, дослідження або робіт."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "видача предмета"@uk .
+
+dkh:e76 a skos:Concept ;
+    skos:altLabel "запобіжна консервація"@uk,
+        "профілактична консервація"@uk ;
+    skos:broader dkh:e75 ;
+    skos:definition "Комплекс непрямих заходів — контроль клімату й освітлення, пакування, захист від шкідників — що сповільнює руйнування без втручання в матеріал твору."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "превентивна консервація"@uk .
+
+dkh:e77 a skos:Concept ;
+    skos:altLabel "спостереження за станом"@uk ;
+    skos:broader dkh:e75 ;
+    skos:definition "Планові повторні огляди та вимірювання, що виявляють зміни фізичного стану предметів у часі."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "моніторинг стану збереженості"@uk .
+
+dkh:e78 a skos:Concept ;
+    skos:broader dkh:e75 ;
+    skos:definition "Тимчасове ізольоване утримання предмета для виявлення біологічного ураження."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "карантин"@uk .
+
+dkh:e79 a skos:Concept ;
+    skos:broader dkh:e75 ;
+    skos:definition "Поступове приведення предмета до нових умов середовища задля уникнення різких змін."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "акліматизація"@uk .
+
+dkh:e80 a skos:Concept ;
+    skos:broader dkh:e75 ;
+    skos:definition "Періодична заміна експонатів, що обмежує сумарну світлову дозу для кожного з них."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "ротація експонування"@uk .
+
+dkh:e82 a skos:Concept ;
+    skos:altLabel "стабілізація стану"@uk ;
+    skos:broader dkh:f153 ;
+    skos:definition "Втручання, що стабілізує фізичний стан твору й зупиняє руйнівні процеси, не відтворюючи втрачених частин зображення."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "консервація"@uk .
+
+dkh:e83 a skos:Concept ;
+    skos:altLabel "реставраційне втручання"@uk ;
+    skos:broader dkh:f153 ;
+    skos:definition "Втручання, що повертає твору втрачену цілісність і можливість прочитання зображення через відновлення пошкоджених елементів."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "реставрація"@uk .
+
+dkh:e84 a skos:Concept ;
+    skos:altLabel "профілактичне заклеювання"@uk,
+        "укріплення живопису"@uk ;
+    skos:broader dkh:f151 ;
+    skos:definition "Введення клейового складу під здуття та приклеювання відсталих ділянок живопису до основи."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "укріплення фарбового шару"@uk .
+
+dkh:e85 a skos:Concept ;
+    skos:broader dkh:f151 ;
+    skos:definition "Заповнення втрат ґрунту під фарбовим шаром реставраційним матеріалом."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "підведення ґрунту"@uk .
+
+dkh:e86 a skos:Concept ;
+    skos:broader dkh:f153 ;
+    skos:definition "Нанесення кольору на ділянки втрат задля відновлення цілісності сприйняття твору."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "тонування втрат"@uk .
+
+dkh:e87 a skos:Concept ;
+    skos:altLabel "знезараження від комах"@uk ;
+    skos:broader dkh:f152 ;
+    skos:definition "Обробка, що знищує комах-шкідників у деревині творів і в приміщеннях сховища."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "дезінсекція"@uk .
+
+dkh:e88 a skos:Concept ;
+    skos:broader dkh:f152 ;
+    skos:definition "Знезараження витримуванням предмета в середовищі з украй низьким умістом кисню."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "аноксія"@uk .
+
+dkh:e89 a skos:Concept ;
+    skos:broader dkh:f152 ;
+    skos:definition "Знезараження витримуванням предмета за низької температури."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "заморожування"@uk .
+
+dkh:e91 a skos:Concept ;
+    skos:altLabel "виставлення"@uk,
+        "показ"@uk ;
+    skos:broader dkh:e90 ;
+    skos:definition "Тимчасове або постійне розміщення предмета для публічного показу з дотриманням обмежень щодо клімату, світла та способу кріплення."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "експонування"@uk .
+
+dkh:e92 a skos:Concept ;
+    skos:broader dkh:e90 ;
+    skos:definition "Переведення об'єкта в режим музейного зберігання та показу."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "музеєфікація"@uk .
+
+dkh:e93 a skos:Concept ;
+    skos:broader dkh:e90 ;
+    skos:definition "Пристосування пам'ятки до сучасного використання зі збереженням її предмета охорони."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "реабілітація"@uk .
+
+dkh:e96 a skos:Concept ;
+    skos:altLabel "головний хранитель"@uk,
+        "зберігач фондів"@uk ;
+    skos:broader dkh:e95 ;
+    skos:definition "Посадова особа, відповідальна за збереженість, облік і рух закріпленої за нею частини зібрання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "хранитель фондів"@uk .
+
+dkh:e97 a skos:Concept ;
+    skos:altLabel "художник-реставратор"@uk ;
+    skos:broader dkh:e95 ;
+    skos:definition "Фахівець, який виконує втручання в матеріальну структуру твору і відповідає за обрану методику та матеріали."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "реставратор"@uk .
+
+dkh:e98 a skos:Concept ;
+    skos:altLabel "куратор"@uk,
+        "науковий співробітник-куратор"@uk ;
+    skos:broader dkh:e95 ;
+    skos:definition "Науковий співробітник, що відповідає за вивчення, поповнення та інтерпретацію окремої частини зібрання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "куратор колекції"@uk .
+
+dkh:e99 a skos:Concept ;
+    skos:broader dkh:e95 ;
+    skos:definition "Посадова особа, відповідальна за збереження та облік усього зібрання установи."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "головний зберігач"@uk .
+
+dkh:f155 a skos:Concept ;
+    skos:altLabel "агент руйнування"@uk,
+        "фактор руйнування"@uk ;
+    skos:broader dkh:f154 ;
+    skos:definition "Будь-який вплив, що спричиняє погіршення стану предмета."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "чинник руйнування"@uk .
+
+dkh:f156 a skos:Concept ;
+    skos:altLabel "ступінь збереженості"@uk,
+        "фізичний стан"@uk ;
+    skos:broader dkh:f154 ;
+    skos:definition "Оцінка фізичної цілісності предмета на певну дату."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "стан збереженості"@uk .
+
+dkh:f158 a skos:Concept ;
+    skos:broader dkh:f157 ;
+    skos:definition "Приведення термінів до єдиної канонічної форми за встановленими правилами."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "нормалізація термінів"@uk .
+
+dkh:f159 a skos:Concept ;
+    skos:broader dkh:f157 ;
+    skos:definition "Виявлення й об'єднання записів, що позначають те саме поняття."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "дедуплікація"@uk .
+
+dkh:f160 a skos:Concept ;
+    skos:broader dkh:f157 ;
+    skos:definition "Автоматичне групування об'єктів за близькістю їхніх ознак."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "кластеризація"@uk .
+
+dkh:f161 a skos:Concept ;
+    skos:broader dkh:f157 ;
+    skos:definition "Перевірка твердження на відповідність джерелу із фіксацією рівня перевірки."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "верифікація"@uk .
+
+dkh:f162 a skos:Concept ;
+    skos:altLabel "визначення предмета"@uk,
+        "встановлення авторства"@uk ;
+    skos:broader dkh:e68 ;
+    skos:definition "Визначення авторства, часу та місця створення предмета."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "атрибуція"@uk .
+
+dkh:f163 a skos:Concept ;
+    skos:broader dkh:e75 ;
+    skos:definition "Тимчасове закріплення фарбового шару перед переміщенням предмета."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "профілактичне заклеювання"@uk .
+
+dkh:f164 a skos:Concept ;
+    skos:broader dkh:e127 ;
+    skos:definition "Форма позначення поняття, обрана як єдина допустима в системі."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "канонічний термін"@uk .
+
+dkh:f165 a skos:Concept ;
+    skos:broader dkh:e127 ;
+    skos:definition "Блок метаданих на початку текстового файлу, що описує документ для машинного опрацювання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "front matter"@uk .
+
+dkh:f166 a skos:Concept ;
+    skos:broader dkh:e137 ;
+    skos:definition "Єдина ознака, за якою поняття поділяють на підпорядковані йому поняття."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "принцип поділу"@uk .
+
+dkh:f167 a skos:Concept ;
+    skos:broader dkh:e137 ;
+    skos:definition "Вимога до поділу: підпорядковані поняття не перетинаються й разом вичерпують обсяг поділюваного."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "MECE"@uk .
+
+dkh:f168 a skos:Concept ;
+    skos:broader dkh:e02 ;
+    skos:definition "Живопис, виконаний безпосередньо на архітектурній поверхні."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "монументальний живопис"@uk .
+
+dkh:f169 a skos:Concept ;
+    skos:broader dkh:e09 ;
+    skos:definition "Предмет, що не має самостійної музейної цінності й використовується для пояснення основного зібрання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "науково-допоміжний матеріал"@uk .
+
+dkh:f171 a skos:Concept ;
+    skos:broader dkh:f170 ;
+    skos:definition "Частка термінів корпусу, що розміщені в листках таксономії."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "покриття таксономії"@uk .
+
+dkh:f172 a skos:Concept ;
+    skos:broader dkh:f170 ;
+    skos:definition "Міра узгодженості двох розмітників із поправкою на випадковий збіг."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "коефіцієнт згоди"@uk .
+
+dkh:f173 a skos:Concept ;
+    skos:broader dkh:f170 ;
+    skos:definition "Міра збігу двох розбиттів однієї множини з поправкою на випадковий збіг."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "скоригований індекс Ренда"@uk .
+
+dkh:f178 a skos:Concept ;
+    skos:broader dkh:f174 ;
+    skos:definition "Інформаційна система, у якій ведуть облікові записи про предмети зібрання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "облікова база даних"@uk .
+
+dkh:f179 a skos:Concept ;
+    skos:broader dkh:f175 ;
+    skos:definition "Документ, у якому послідовно реєструють складені акти."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "книга реєстрації актів"@uk .
+
+dkh:f180 a skos:Concept ;
+    skos:broader dkh:f176 ;
+    skos:definition "Документ, що визначає склад і межі запланованого втручання у твір."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "реставраційне завдання"@uk .
+
+dkh:f181 a skos:Concept ;
+    skos:altLabel "журнал ТВР"@uk,
+        "журнал клімату"@uk ;
+    skos:broader dkh:f177 ;
+    skos:definition "Документ регулярних записів про показники повітряного середовища."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "журнал температурно-вологісного режиму"@uk .
+
+dkh:f182 a skos:Concept ;
+    skos:broader dkh:f177 ;
+    skos:definition "Документ регулярних записів про перевірку та налаштування засобів вимірювання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "журнал калібрувань"@uk .
+
+dkh:f183 a skos:Concept ;
+    skos:broader dkh:f177 ;
+    skos:definition "Документ регулярних записів про проведені навчання персоналу."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:prefLabel "журнал навчань"@uk .
+
+dkh:e103 a skos:Concept ;
+    skos:broader dkh:e94 ;
+    skos:definition "Органи, що ухвалюють рішення щодо предметів зібрання колегіально."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e104,
+        dkh:e105 ;
+    skos:prefLabel "Колегіальний орган"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:f151 a skos:Concept ;
+    skos:broader dkh:e81 ;
+    skos:definition "Операції, що відновлюють зв'язність матеріалу механічною або адгезійною дією."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e84,
+        dkh:e85 ;
+    skos:prefLabel "Механічне втручання"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:f154 a skos:Concept ;
+    skos:broader dkh:e38 ;
+    skos:definition "Родові поняття, що узагальнюють причину руйнування та результат її дії."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:f155,
+        dkh:f156 ;
+    skos:prefLabel "Узагальнена оцінка збереженості"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за спрямованістю узагальнення: на причину впливу чи на його результат"@uk .
+
+dkh:e01 a skos:Concept ;
+    skos:definition "Матеріальна або цифрова сутність, що є предметом обліку, зберігання та охорони в установі."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e02,
+        dkh:e09,
+        dkh:e23 ;
+    skos:prefLabel "Об'єкт спадщини"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за юридичним режимом об'єкта"@uk ;
+    skos:topConceptOf dkh:scheme .
+
+dkh:e146 a skos:Concept ;
+    skos:broader dkh:e112 ;
+    skos:definition "Позначення, за якими ресурс розпізнають і визначають умови доступу до нього."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e147,
+        dkh:e148,
+        dkh:e149 ;
+    skos:prefLabel "Ідентифікація"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e81 a skos:Concept ;
+    skos:broader dkh:e67 ;
+    skos:definition "Дії, що безпосередньо змінюють матеріальну структуру твору."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:f151,
+        dkh:f152,
+        dkh:f153 ;
+    skos:prefLabel "Втручання в матеріал"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за природою впливу на матеріал"@uk .
+
+dkh:e90 a skos:Concept ;
+    skos:broader dkh:e67 ;
+    skos:definition "Дії, що вводять предмет у публічне або наукове використання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e91,
+        dkh:e92,
+        dkh:e93 ;
+    skos:prefLabel "Повернення в обіг"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e94 a skos:Concept ;
+    skos:definition "Особи, органи та сторони, що ухвалюють рішення щодо спадщини або взаємодіють із нею."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e103,
+        dkh:e106,
+        dkh:e95 ;
+    skos:prefLabel "Суб'єкт і відповідальність"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за роллю щодо об'єкта"@uk ;
+    skos:topConceptOf dkh:scheme .
+
+dkh:f152 a skos:Concept ;
+    skos:broader dkh:e81 ;
+    skos:definition "Операції, що діють на матеріал зміною хімічного складу або фізичних умов середовища."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e87,
+        dkh:e88,
+        dkh:e89 ;
+    skos:prefLabel "Хімічне і фізичне втручання"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:f153 a skos:Concept ;
+    skos:broader dkh:e81 ;
+    skos:definition "Операції, що відновлюють цілісність сприйняття твору."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e82,
+        dkh:e83,
+        dkh:e86 ;
+    skos:prefLabel "Відновлення зображення"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e113 a skos:Concept ;
+    skos:broader dkh:e112 ;
+    skos:definition "Документи, якими закріплюють склад зібрання, права на предмети та перебіг робіт."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:f174,
+        dkh:f175,
+        dkh:f176,
+        dkh:f177 ;
+    skos:prefLabel "Обліковий документ"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за функцією документа в управлінні зібранням"@uk .
+
+dkh:e55 a skos:Concept ;
+    skos:broader dkh:e38 ;
+    skos:definition "Живі агенти ураження та умови, що визначають їхню активність."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e56,
+        dkh:e57,
+        dkh:e58,
+        dkh:e59 ;
+    skos:prefLabel "Біологічний чинник"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:f157 a skos:Concept ;
+    skos:broader dkh:e67 ;
+    skos:definition "Операції над сукупністю термінів і записів, що впорядковують та перевіряють модель."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:f158,
+        dkh:f159,
+        dkh:f160,
+        dkh:f161 ;
+    skos:prefLabel "Опрацювання записів знання"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за операцією над множиною термінів або записів"@uk .
+
+dkh:f170 a skos:Concept ;
+    skos:broader dkh:e112 ;
+    skos:definition "Числові величини, якими вимірюють повноту, перевіреність і узгодженість моделі."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e150,
+        dkh:f171,
+        dkh:f172,
+        dkh:f173 ;
+    skos:prefLabel "Показник якості моделі"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за властивістю моделі, яку вимірює показник"@uk .
+
+dkh:f175 a skos:Concept ;
+    skos:broader dkh:e113 ;
+    skos:definition "Документи, якими юридично оформлюють перехід предметів та обов'язки щодо них."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e117,
+        dkh:e119,
+        dkh:e124,
+        dkh:f179 ;
+    skos:prefLabel "Правові документи руху та відповідальності"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за юридичною дією, яку засвідчує документ"@uk .
+
+dkh:f177 a skos:Concept ;
+    skos:broader dkh:e113 ;
+    skos:definition "Регулярні записи про показники середовища, справність засобів і готовність персоналу."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e126,
+        dkh:f181,
+        dkh:f182,
+        dkh:f183 ;
+    skos:prefLabel "Журнали режимного контролю та документи готовності"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за об'єктом регулярного спостереження, який реєструє документ"@uk .
+
+dkh:e106 a skos:Concept ;
+    skos:broader dkh:e94 ;
+    skos:definition "Сторони поза установою, що взаємодіють зі спадщиною або мають щодо неї повноваження."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e107,
+        dkh:e108,
+        dkh:e109,
+        dkh:e110,
+        dkh:e111 ;
+    skos:prefLabel "Зовнішня сторона"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e112 a skos:Concept ;
+    skos:definition "Носії відомостей про спадщину та способи їх формального подання."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e113,
+        dkh:e127,
+        dkh:e137,
+        dkh:e146,
+        dkh:f170 ;
+    skos:prefLabel "Запис знання"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за функцією запису в системі знань"@uk ;
+    skos:topConceptOf dkh:scheme .
+
+dkh:e38 a skos:Concept ;
+    skos:definition "Поняття, якими описують вплив середовища на предмет і наслідки цього впливу."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e39,
+        dkh:e49,
+        dkh:e55,
+        dkh:e60,
+        dkh:f154 ;
+    skos:prefLabel "Умови та чинники"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за роллю поняття в оцінюванні збереженості: окремо родові поняття, далі чинники за фізичною природою впливу"@uk ;
+    skos:topConceptOf dkh:scheme .
+
+dkh:e49 a skos:Concept ;
+    skos:broader dkh:e38 ;
+    skos:definition "Показники освітлення та випромінювання, що спричиняють незворотні зміни матеріалів."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e50,
+        dkh:e51,
+        dkh:e52,
+        dkh:e53,
+        dkh:e54 ;
+    skos:prefLabel "Світловий чинник"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e67 a skos:Concept ;
+    skos:broadMatch aat:300053001 ;
+    skos:definition "Упорядковані дії установи щодо предметів зібрання та відомостей про них."@uk ;
+    skos:editorialNote "Зв'язок із AAT 300053001: processes and techniques — верхня категорія процесів AAT"@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e68,
+        dkh:e75,
+        dkh:e81,
+        dkh:e90,
+        dkh:f157 ;
+    skos:prefLabel "Дія з об'єктом"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за предметом дії: матеріальний об'єкт або відомості про нього"@uk ;
+    skos:topConceptOf dkh:scheme .
+
+dkh:f176 a skos:Concept ;
+    skos:broader dkh:e113 ;
+    skos:definition "Документи, що обґрунтовують, призначають і фіксують втручання у твір."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e118,
+        dkh:e122,
+        dkh:e123,
+        dkh:e125,
+        dkh:f180 ;
+    skos:prefLabel "Документи експертизи та реставраційного процесу"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за етапом втручання, який документ обслуговує"@uk .
+
+dkh:e60 a skos:Concept ;
+    skos:broader dkh:e38 ;
+    skos:definition "Фізичні впливи на предмет і спричинені ними пошкодження."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e61,
+        dkh:e62,
+        dkh:e63,
+        dkh:e64,
+        dkh:e65,
+        dkh:e66 ;
+    skos:prefLabel "Механічний і антропогенний чинник"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e75 a skos:Concept ;
+    skos:broader dkh:e67 ;
+    skos:definition "Заходи, що сповільнюють руйнування предмета без втручання в його матеріал."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e76,
+        dkh:e77,
+        dkh:e78,
+        dkh:e79,
+        dkh:e80,
+        dkh:f163 ;
+    skos:prefLabel "Запобігання руйнуванню"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:f174 a skos:Concept ;
+    skos:broader dkh:e113 ;
+    skos:definition "Документи, що реєструють склад зібрання та описові відомості про кожну одиницю."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e114,
+        dkh:e115,
+        dkh:e116,
+        dkh:e120,
+        dkh:e121,
+        dkh:f178 ;
+    skos:prefLabel "Документи фондового та памʼяткового обліку"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за видом облікових відомостей, які фіксує документ"@uk .
+
+dkh:e02 a skos:Concept ;
+    skos:broader dkh:e01 ;
+    skos:definition "Об'єкти спадщини, нерозривно пов'язані з місцем розташування, та пов'язані з ними територіальні режими."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e03,
+        dkh:e04,
+        dkh:e05,
+        dkh:e06,
+        dkh:e07,
+        dkh:e08,
+        dkh:f168 ;
+    skos:prefLabel "Нерухома пам'ятка"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e95 a skos:Concept ;
+    skos:broader dkh:e94 ;
+    skos:definition "Окремі працівники установи з персональною фаховою відповідальністю."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e100,
+        dkh:e101,
+        dkh:e102,
+        dkh:e96,
+        dkh:e97,
+        dkh:e98,
+        dkh:e99 ;
+    skos:prefLabel "Фахівець установи"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e39 a skos:Concept ;
+    skos:broader dkh:e38 ;
+    skos:definition "Показники й стани повітряного середовища, що впливають на збереженість предмета."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e40,
+        dkh:e41,
+        dkh:e42,
+        dkh:e43,
+        dkh:e44,
+        dkh:e45,
+        dkh:e46,
+        dkh:e47,
+        dkh:e48 ;
+    skos:prefLabel "Кліматичний чинник"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e68 a skos:Concept ;
+    skos:broader dkh:e67 ;
+    skos:definition "Дії, що встановлюють, змінюють або підтверджують облікові відомості про предмет."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e36,
+        dkh:e37,
+        dkh:e69,
+        dkh:e70,
+        dkh:e71,
+        dkh:e72,
+        dkh:e73,
+        dkh:e74,
+        dkh:f162 ;
+    skos:prefLabel "Облік і документування"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e137 a skos:Concept ;
+    skos:broader dkh:e112 ;
+    skos:definition "Записи, що задають порядок дій або вимоги до моделі знань."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e138,
+        dkh:e139,
+        dkh:e140,
+        dkh:e141,
+        dkh:e142,
+        dkh:e143,
+        dkh:e144,
+        dkh:e145,
+        dkh:f166,
+        dkh:f167 ;
+    skos:prefLabel "Правило і процедура"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e23 a skos:Concept ;
+    skos:broader dkh:e01 ;
+    skos:definition "Шари й конструктивні елементи, з яких фізично складається твір."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e24,
+        dkh:e25,
+        dkh:e26,
+        dkh:e27,
+        dkh:e28,
+        dkh:e29,
+        dkh:e30,
+        dkh:e31,
+        dkh:e32,
+        dkh:e33 ;
+    skos:prefLabel "Матеріальна структура"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e127 a skos:Concept ;
+    skos:broader dkh:e112 ;
+    skos:definition "Структури, у яких знання подано так, щоб їх могла опрацьовувати машина."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e128,
+        dkh:e129,
+        dkh:e130,
+        dkh:e131,
+        dkh:e132,
+        dkh:e133,
+        dkh:e134,
+        dkh:e135,
+        dkh:e136,
+        dkh:e35,
+        dkh:f164,
+        dkh:f165 ;
+    skos:prefLabel "Формальна модель"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:e09 a skos:Concept ;
+    skos:broader dkh:e01 ;
+    skos:definition "Об'єкти спадщини, які можна переміщувати без втрати їхньої цілісності, та їх сукупності."@uk ;
+    skos:inScheme dkh:scheme ;
+    skos:narrower dkh:e10,
+        dkh:e11,
+        dkh:e12,
+        dkh:e13,
+        dkh:e14,
+        dkh:e15,
+        dkh:e16,
+        dkh:e17,
+        dkh:e18,
+        dkh:e19,
+        dkh:e20,
+        dkh:e21,
+        dkh:e22,
+        dkh:f169 ;
+    skos:prefLabel "Рухомий предмет"@uk ;
+    skos:scopeNote "Принцип поділу дітей: за конкретним поняттям області"@uk .
+
+dkh:scheme a skos:ConceptScheme ;
+    dcterms:created "2026-10-25" ;
+    dcterms:creator "Чапля О., ФеІ-42" ;
+    skos:hasTopConcept dkh:e01,
+        dkh:e112,
+        dkh:e38,
+        dkh:e67,
+        dkh:e94 ;
+    skos:prefLabel "Таксономія понять управління знаннями культурної спадщини"@uk .
+
